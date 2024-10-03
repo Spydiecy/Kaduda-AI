@@ -88,6 +88,7 @@ export default function Home() {
             animate={isInView ? "visible" : "hidden"}
             whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(236, 72, 153, 0.7)" }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => window.open("https://github.com/HawiAdams/Kaduda-AI", "_blank")}
           >
             Get Started
           </motion.button>
@@ -285,7 +286,11 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <MdEmail className="text-pink-400 mr-2" />
-                  <a href="mailto:info@kadudaai.com" className="hover:text-pink-400 transition-colors">info@kadudaai.com</a>
+                  <a href="mailto:info@kadudaai.com" className="hover:text-pink-400 transition-colors">tanishqgupta322@gmail.com</a>
+                </li>
+                <li className="flex items-center">
+                  <MdEmail className="text-pink-400 mr-2" />
+                  <a href="mailto:info@kadudaai.com" className="hover:text-pink-400 transition-colors">ernestadams383@gmail.com</a>
                 </li>
                 <li className="flex items-center">
                   <MdPhone className="text-pink-400 mr-2" />
